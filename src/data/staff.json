@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Steve Pelphrey",
+        "title": "General Manager",
+        "email": "steven.pelphrey@stratumreservoir.com",
+        "image": "Steve_Pelphrey.jpg"
+    },
+    {
+        "name": "Tyler Cunningham",
+        "title": "Laboratory Supervisor",
+        "email": "tyler.cunningham@stratumreservoir.com",
+        "image": "Tyler_Cunningham.jpg"
+    },
+    {
+        "name": "Cameron Jones",
+        "title": "Laboratory Supervisor",
+        "email": "cameron.jones@stratumreservoir.com",
+        "image": "Cam_Jones.jpg"
+    },
+    {
+        "name": "Missy Meade",
+        "title": "Client Services Specialist",
+        "email": "melissa.meade@stratumreservoir.com",
+        "image": "Missy_Meade.jpg"
+    },
+    {
+        "name": "Sher Dixon",
+        "title": "Client Services Supervisor",
+        "email": "sher.dixon@stratumreservoir.com",
+        "image": "Sher_Dixon.jpg"
+    },
+    {
+        "name": "Abby Wright",
+        "title": "Senior Project Manager",
+        "email": "abby.wright@stratumreservoir.com",
+        "image": "Abby_Wright.jpg"
+    },
+    {
+        "name": "Carrie Kibler",
+        "title": "Senior Project Manager",
+        "email": "carolyn.kibler@stratumreservoir.com",
+        "image": "Carrie_Kibler.jpg"
+    },
+    {
+        "name": "Aidee Steele",
+        "title": "Project Manager",
+        "email": "aidee.steele@stratumreservoir.com",
+        "image": "Aidee_Steele.jpg"
+    },
+    {
+        "name": "Morgan Barstow",
+        "title": "Mud Gas Project Manager",
+        "email": "morgan.barstow@stratumreservoir.com",
+        "image": "Morgan_Barstow.jpg"
+    },
+    {
+        "name": "Suzanne Gent",
+        "title": "Quality Control Specialist",
+        "email": "suzanne.walker@stratumreservoir.com",
+        "image": "Suzanne_Gent.jpg"
+    },
+    {
+        "name": "Keith Hackley",
+        "title": "Senior Isotope Geochemist",
+        "email": "keith.hackley@stratumreservoir.com",
+        "image": "Keith_Hackley.jpg"
+    },
+    {
+        "name": "Myles Moore",
+        "title": "Senior Geochemist",
+        "email": "myles.moore@stratumreservoir.com",
+        "image": "Myles_Moore.jpg"
+    },
+    {
+        "name": "Jason Klemp",
+        "title": "Quality Health Safety Security and Enviroment Specialist",
+        "email": "jason.klemp@stratumreservoir.com",
+        "image": "Jason_Klemp.jpg"
+    },
+    {
+        "name": "Gavin Steele",
+        "title": "Product Line Manager",
+        "email": "gavin.steele@stratumreservoir.com",
+        "image": "Gavin_Steele.jpg"
+    }
+]

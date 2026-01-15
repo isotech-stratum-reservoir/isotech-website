@@ -1,0 +1,352 @@
+[
+    {
+        "name": "pH",
+        "suites": {
+            "wab": true,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Conductivity",
+        "suites": {
+            "wab": true,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Alkalinity",
+        "suites": {
+            "wab": true,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "TDS (calculated)",
+        "suites": {
+            "wab": true,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Sodium",
+         "suites": {
+            "wab": true,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Potassium",
+         "suites": {
+            "wab": true,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Magnesium",
+         "suites": {
+            "wab": true,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Calcium",
+         "suites": {
+            "wab": true,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Barium",
+         "suites": {
+            "wab": false,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Strontium",
+         "suites": {
+            "wab": false,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Iron",
+         "suites": {
+            "wab": false,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Manganese",
+         "suites": {
+            "wab": false,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Lithium",
+         "suites": {
+            "wab": false,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Boron",
+         "suites": {
+            "wab": false,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Silicon",
+        "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Zinc",
+        "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Aluminum",
+        "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": false,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Cadmium",
+        "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": false,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Cobalt",
+        "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": false,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Chromium",
+        "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": false,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Copper",
+        "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": false,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Molybdenum",
+        "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": false,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Nickel",
+        "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": false,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Phosphorus",
+        "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": false,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Vanadium",
+        "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": false,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Sulfate",
+         "suites": {
+            "wab": true,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Chloride",
+         "suites": {
+            "wab": true,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Fluoride",
+        "suites": {
+            "wab": false,
+            "wae": true,
+            "wao": false,
+            "wafa": false,
+            "wac" : false
+        }
+    },
+    {
+        "name": "Bromide",
+         "suites": {
+            "wab": false,
+            "wae": true,
+            "wao": true,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Iodide",
+         "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": false,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Nitrate",
+         "suites": {
+            "wab": false,
+            "wae": true,
+            "wao": false,
+            "wafa": false,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Phosphate",
+         "suites": {
+            "wab": false,
+            "wae": true,
+            "wao": false,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "Sulfide",
+         "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": true,
+            "wac" : false
+        }
+    },
+    {
+        "name": "DIC",
+         "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": true,
+            "wac" : true
+        }
+    },
+    {
+        "name": "TSS",
+         "suites": {
+            "wab": false,
+            "wae": false,
+            "wao": false,
+            "wafa": true,
+            "wac" : true
+        }
+    }
+]
