@@ -1,10 +1,8 @@
 import styles from "@/css/home.module.scss";
 import Link from "next/link";
-import Image from "next/image";
 import Section from "@/components/Section";
 import cotton from "@/public/images/cotton.jpg";
 import map from "@/public/images/world-map.jpg";
-import acreditationLogo from '@/public/images/Iso accreditation symbol.png';
 
 export default function Home() {
     return (
