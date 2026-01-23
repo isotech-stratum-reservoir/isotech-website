@@ -78,9 +78,10 @@ export default function Home() {
                 <div className="row">
                     <div className="col-md-6 mb-4 mb-md-0">
                         <div className="card p-4 d-flex flex-column justify-content-center">
-                            <h3>ISO / IEC 17025:2017</h3>
-                            <p>Accreditation #120824</p>
-                            <p><Link className="button download" href="/files/ISO17025certificate.pdf" target="_blank">Download our ISO / IEC 17025:2017 Certificate</Link></p>
+                            <h3>ISO/IEC 17025:2017</h3>
+                            <p>Accreditation #120824: Applies only to services listed in the scope.</p>
+                            <p><Link className="button download" href="/files/ISO17025certificate.pdf" target="_blank">ISO/IEC 17025:2017 Certificate</Link></p>
+                            <p><Link className="button download" href="/files/FO 520 Rev 0 Scope of Accreditation for ISO 17025.pdf" target="_blank">ISO/IEC 17025:2017 Scope</Link></p>
                         </div>
                     </div>
 
@@ -88,7 +89,7 @@ export default function Home() {
                         <div className="card p-4 d-flex flex-column justify-content-center">
                             <h3>ISO 9001:2015</h3>
 
-                            <p><Link className="button download" href="/files/ISO9001certificate.pdf" target="_blank">Download our ISO 9001:2015 Certificate</Link></p>
+                            <p><Link className="button download" href="/files/ISO9001certificate.pdf" target="_blank">ISO 9001:2015 Certificate</Link></p>
                         </div>
                     </div>
                 </div>

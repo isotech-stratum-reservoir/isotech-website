@@ -13,9 +13,9 @@ export default function QualityAssurance() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Quality Assurance/Quality Control</h1>
 
-            <p className="mt-4">Isotech is an International Organization for Standardization (ISO) 9001 and ISO 17025 certified company that since its inception has been known for the quality of its data. Isotech was co-selected by NIST (National Institute of Standards and Technology) to perform the isotopic calibration of natural gas standards for international distribution.</p>
+            <p className="mt-4">Isotech is an ISO 9001 certified company, and maintains ISO/IEC 17025 accreditation for some specific laboratory testing services as defined in our Scope of Accreditation. Since our inception, Isotech has been known for the quality of our data. Isotech was co-selected by the National Institute of Standards and Technology (NIST) to perform the isotopic calibration of natural gas standards for international distribution.</p>
 
-            <p>In addition to required annual proficiency tests mandated to maintain our ISO17025 accreditation, Isotech participates in round-robin testing whenever the opportunity arises and has participated in studies by the Finnigan Corporation, International Atomic Energy Agency (IAEA), Forensic Isotope Ratio Mass Spectrometry (FIRMS) network, and others.</p>
+            <p>In support of our ISO/IEC 17025 accredited activities, Isotech parcitipates in required annual proficiency testing programs and routinely engages in round-robin studies, including collaborations with Finnigan Corporation, the International Atomic Energy Agency (IAEA), the Forensic Isotope Ratio Mass Spectrometry (FIRMS) network, and others.</p>
 
             <Image 
                 src={qcImg}
