@@ -7,7 +7,7 @@ export default function HSIsotopesTab() {
         <div className="tab-pane fade" id="HydrogenSulfideIsotopes" role="tabpanel" aria-labelledby="HydrogenSulfideIsotopesTab" tabIndex={0}>
             <h2>Hydrogen Sulfide (H<sub>2</sub>S) Isotopes</h2>
 
-            <p>Hydrogen Sulfide is a toxic gas that is dangerous to human health and is costly to remove from produced gas streams. Isotech is not a sour gas lab and therefore cannot receive sour gases. Therefore, our team provides sampling equipment that removes H<sub>2</sub>S or converts it to a solid form to ship without HAZMAT restrictions to determine the sulfur isotopic composition of H<sub>2</sub>S to assess the source of H2S. We also sell equipment to remove H<sub>2</sub>S from gas for analyses of other parameters.</p>
+            <p>Hydrogen Sulfide is a toxic gas that is dangerous to human health and is costly to remove from produced gas streams. Isotech is not a sour gas lab and therefore cannot receive sour gases. Therefore, our team provides sampling equipment that removes H<sub>2</sub>S or converts it to a solid form to ship without HAZMAT restrictions to determine the sulfur isotopic composition of H<sub>2</sub>S to assess the source of H<sub>2</sub>S. We also sell equipment to remove H<sub>2</sub>S from gas for analyses of other parameters.</p>
 
             <figure className="figure">
                 <Image 
@@ -33,7 +33,7 @@ export default function HSIsotopesTab() {
             <p>After properly collecting a sample, there is no limit on how long an IsoTrap can be stored.</p>
 
             <h4>Shipping</h4>
-            <p>Do not ship on a Friday as there is no one to receive the sample over the weekend. Please include a <Link href="/resources/shipping-guidelines">Chain of Custody (COC) form</Link>.</p>
+            <p>See our <Link href="/resources/shipping-guidelines">Shipping Guidelines page</Link> for specific shipping information for gas containers.</p>
         </div>
     );
 }

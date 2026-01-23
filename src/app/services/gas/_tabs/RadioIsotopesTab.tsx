@@ -44,7 +44,7 @@ export default function RadioisotopesTab() {
         <h3 className="mt-4">Sampling Guidelines</h3>
 
         <h4>Sample Container</h4>
-        <p>Gas samples for <strong><sup>14</sup>C of methane</strong> can be collected in <Link href="/products/isobag">IsoBags®</Link>, <Link href="/products/isotube">IsoTubes®</Link>, gas bags, or steel cylinders.</p>
+        <p>Gas samples for <strong><sup>14</sup>C of methane</strong> can be collected in <Link href="/products/isobag">IsoBags®</Link>, <Link href="/products/isotube">IsoTubes®</Link>, or <Link href="/products/cylinders">steel cylinders</Link>.</p>
 
         <p>Gas samples for <strong><sup>3</sup>H of methane</strong> need to be collected in ~18 liter LP tanks that have been pre-evacuated and are pressurized to 20 psi using a pump. It is important to ensure that there are no leaks in the connections and that liquid does not get into the LP tank. A specific SOP for collecting gas samples for tritium analysis is provided.</p>
 
@@ -65,7 +65,7 @@ export default function RadioisotopesTab() {
         <p>As long as sample containers are not leaking gas, samples will maintain gas molecular and isotopic composition.</p>
 
         <h4>Shipping</h4>
-        <p>Do not ship on a Friday as there is no one to receive the sample. Please include a <Link href="/resources/shipping-guidelines">Chain of Custody (COC) form</Link>.</p>
+        <p>See our <Link href="/resources/shipping-guidelines">Shipping Guidelines page</Link> for specific shipping information for gas containers.</p>
 
         <h3 className="mt-4">Analysis Suites</h3>
         <table className="table table-striped">
