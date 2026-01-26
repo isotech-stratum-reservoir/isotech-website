@@ -26,7 +26,7 @@ export default function IsoBag() {
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
             />
 
-            <p>For easy collection of soil gases, low-pressure samples or where cylinders would be difficult to use, we provide evacuated gas bags. Sets of three 0.3 liter bags packed in five-gallon shipping containers are available for shipping flammable gas samples.</p>
+            <p>For easy collection of soil gases, low-pressure samples or where cylinders would be difficult to use, we provide evacuated gas bags. Sets of three 0.3 liter bags, a ball hand pump, and tubing are packed in five-gallon shipping containers for shipping flammable gas samples.</p>
 
             <p>Storage Temperature range: -4°F (-20°C) TO +122°F (+50°C)</p>
 

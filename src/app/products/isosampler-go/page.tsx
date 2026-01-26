@@ -29,7 +29,7 @@ export default function IsoSamplerGo() {
 
             <p>The IsoSampler Go is used to collect pressurized gas samples from a well head or separator into an IsoTube®. The IsoSampler Go can reduce gas pressures up to 3000 psi down to 80 psi for gas sample collection. Wellhead pressures greater than 3000 psi will require additional flow controls.</p>
 
-            <p className="my-4"><Link className="button download" href="/files/FO 613 Rev 3 Collecting Wellhead Samples in Classic IsoTubes.pdf" target="_blank">IsoSampler Go Sampling Instructions</Link></p>
+            <p className="my-4"><Link className="button download" href="/files/FO 735 Rev. 1 Collecting Gas Samples with the IsoSampler GO and IsoTubes.pdf" target="_blank">IsoSampler Go Sampling Instructions</Link></p>
 
             <Accordion heading="Adapter to use the Wellhead Sampler with the current IsoTubes" headingLevel={2}>
                 <p>For customers that have the Wellhead Sampler that was used to collect gas samples with the old IsoTubes (double valved tube), we also provide an adapter to use the Wellhead Sampler to collect gas samples into the current IsoTubes (single valved tube).</p>
