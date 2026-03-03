@@ -89,7 +89,7 @@ export default function Home() {
                         <div className="card p-4 d-flex flex-column justify-content-center">
                             <h3>ISO 9001:2015</h3>
 
-                            <p><Link className="button download" href="/files/ISO9001certificate.pdf" target="_blank">ISO 9001:2015 Certificate</Link></p>
+                            <p><Link className="button download" href="/files/P21 DF18Q_Stratum Reservoir (Isotech), LLC_Recert 2025.pdf" target="_blank">ISO 9001:2015 Certificate</Link></p>
                         </div>
                     </div>
                 </div>
