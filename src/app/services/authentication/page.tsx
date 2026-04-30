@@ -1,66 +1,135 @@
 import Image from "next/image";
-import Subpage from "@/components/Subpage";
-import fig13 from "@/public/images/authentication/Figure 13_3D plot of cotton origin.png";
-import honeyGraph from "@/public/images/authentication/Honey_Graph.png";
+import Link from "next/link";
+import Section from "@/components/Section";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import statBG from "@/public/images/authentication/authentication-stat-bg.jpg";
 
 export const metadata = {
     title: "Authentication | Services | Isotech",
-    description: "",
+    description: "Isotech is the largest commercial U.S. isotopic laboratory providing cotton and textile fiber origin authentication meeting enforcement requirements for the Uyghur Forced Labor Prevention Act (UFLPA).",
 };
 
 export default function Authentication() {
     const breadcrumbs = ["Services", "Authentication"];
 
     return (
-        <Subpage breadcrumbs={breadcrumbs}>
-            <h1>Authentication</h1>
-            
-            <h2 className="mt-4">Cotton Origin</h2>
+        <>
+        <Breadcrumbs pageTitles={breadcrumbs}/>
 
-            <p>In 2021, US Customs and Border Protection (CBP) passed the Uyghur Forced Labor Prevention Act (UFLPA) to prohibit cotton from the Xinjiang Uyghur Autonomous Region (XUAR) to be distributed in US markets. This was due to forced labor in the XUAR being used to grow cotton. Bad actors have been incorporating cotton grown in the XUAR into cotton supply chains and passing it off as cotton grown in other regions. To verify where cotton was grown, the CBP put together Publication No. 3869-1024, which states that isotopic testing of cotton is a tool to verify cotton origin and provides an Isotopic Testing Guide that our facility conforms to. Our team has been verifying the source of cotton prior to the passage of the UFLPA and has generated an extensive reference library of isotopic compositions of cotton from the major producing regions of the world. You can send in raw cotton fiber, unprocessed or processed greige yarn, dyed fabric, or finished products to our facility to verify cotton origin.</p>
+        <h1 className="visually-hidden">Authentication</h1>
 
-            <p>In addition to adhering to regulatory requirements, isotopic testing of cotton can ensure consumer expectations are met. For example if a product claims that it is “Egyptian Cotton”, our isotopic testing and associated report will tell you if it was actually grown in Egypt.</p>
+        <Section className="text-center">
+            <div className="mw-800">
+                <h2>A U.S.-Based Solution for Cotton Origin Enforcement</h2>
 
-            <figure className="figure row mt-4">
-                <div className="col-12 col-lg-6">
-                    <Image 
-                        priority
-                        src={fig13}
-                        alt="3D visualization of isotope fingerprints of cotton"
-                        width="500"
-                        className="figure-img img-fluid"
-                    />
+                <p>Over its 40-year history, Isotech has consistently been on the leading edge of applied isotopic science – pioneering methods, setting standards, and expanding capabilities ahead of the field. Today, Isotech is the largest commercial U.S. isotopic laboratory providing cotton and textile fiber origin authentication meeting enforcement requirements for the Uyghur Forced Labor Prevention Act (UFLPA).</p>
+            </div>
+        </Section>
+
+        <Section className="gradient-bg">
+            <div className="row">
+                <div className="col-12 col-md-6">
+                    <h2 className="mb-2">The Science Behind the Answer</h2>
+                    <h3 className="regular-text"><em>Stable Isotopic Analysis</em></h3>
                 </div>
-                <figcaption className="figure-caption col-12 col-lg-6">Advanced 3D visualization illustrates the different isotope fingerprints based on carbon, hydrogen, and oxygen isotopic measurements of cotton to correlate with geographic origin.</figcaption>
-            </figure>
 
-            <hr className="my-4"/>
-
-            <h2>Honey Authentication</h2>
-
-            <p>Honey can be adulterated with sugar. Our team can perform carbon isotopic testing on honey to determine if honey you are being sold is being fraudulently adulterated or if you have high-quality natural honey made by bees.</p>
-
-            <figure className="figure row mt-4">
-                <div className="col-12 col-lg-6">
-                    <Image 
-                        priority
-                        src={honeyGraph}
-                        alt="graph showing isotopic composition of honey"
-                        width="500"
-                        className="figure-img img-fluid"
-                    />
+                <div className="col-12 col-md-6">
+                    <ul>
+                        <li><strong>Cotton absorbs its environment as it grows.</strong><br/>
+                        For plants like cotton, the isotopic composition is determined by factors like soil chemistry, water source, temperature, atmospheric conditions, and precipitation.</li>
+                        <li><strong>Samples are sent to our lab.</strong><br/>
+                        As the isotopic signature of cotton remains consistent through every stage of apparel manufacturing, Isotech can test samples at any point in the supply chain, including complex blended goods.</li>
+                        <li><strong>We capture the unique isotopic “fingerprint”.</strong><br/>
+                        Stable isotope ratio analysis of carbon, hydrogen, and oxygen provides a scientifically proven, court-defensible tool for confirming whether cotton originated from a specific region.</li>
+                        <li><strong>We map the results to a specific region.</strong><br/>
+                        Isotech maintains a reference library of cotton samples from two dozen countries, covering almost 96% of all cotton grown in the world and an even higher percentage of traded cotton.</li>
+                        <li><strong>Results are delivered with certainty.</strong><br/>
+                        The final Isotope Testing Report includes a description of the tested sample, findings on origin, and an evaluation of the findings against high-risk regions. Our team of expert geochemists also provides interpretive support, ensuring results are clearly communicated.</li>
+                    </ul>
+                    
                 </div>
-                <figcaption className="figure-caption col-12 col-lg-6">The plot shows how we can use the carbon isotopic composition to determine if a honey sample is made of pure honey or if it has been adulterated with sugar cane or corn syrup.</figcaption>
-            </figure>
 
-            <hr className="my-4"/>
+            </div>
+        </Section>
 
-            <h2>Meat and Timber Authentication</h2>
+        <Section>
+            <div className="row">
+                <div className="col-12 col-md-6 col-lg-4">
+                </div>
 
-            <p>Unfortunately, bad actors can label lower quality meat or wood as higher quality products to unethically increase profits. For example, beef can be labeled as “Product of USA” and cattle could have born, raised, and slaughtered outside the USA. Timber can be harvested from protected regions and fraudulently passed off as timber being grown in regions where logging is permitted.</p>
+                <div className="col-12 col-md-6 col-lg-8">
+                    <h2>Blends, Yarns, Finished Goods. No Sample Too Complex.</h2>
 
-            <p>Our team can make isotopic measurements of meat and timber to assess the origin of where cattle were raised or where timber was grown to verify the origin of meat or timber.</p>
+                    <p>Cotton can be tested at any point in the supply chain — from raw fiber through yarn, fabric, and finished garments. Isotech also handles blended fabrics, including polyester, nylon, rayon, viscose, and elastane, by quantitatively removing the non-cotton fiber component. This is critical for UFLPA enforcement, where blended textile goods represent a significant share of detained shipments.</p>
+                </div>
 
-        </Subpage>
+            </div>
+        </Section>
+
+        <Section>
+            <div className="row">
+                <div className="col-12 col-md-6 col-lg-8">
+                    <h2>Results that Move Shipments</h2>
+
+                    <p>As a U.S.-based laboratory, Isotech offers faster sample processing and reporting turnaround than foreign-based testing providers, with no cross-border data transmission, no foreign server exposure, and no risk of sensitive trade enforcement information leaving U.S. jurisdiction. Isotech's isotopic testing has been used by importers to support the release of hundreds of cotton products detained under the UFLPA, with results accepted by CBP in real-world enforcement matters.</p>
+                </div>
+
+                <div className="col-12 col-md-6 col-lg-4">
+                </div>
+
+            </div>
+
+            <div className="row my-4">
+
+                <div className="col-12 col-md-6 col-lg-4">
+                    <div className="card">
+                        <div className="card-body">
+                            <h3 className="card-title">From Detained to Delivered</h3>
+                            <p>A cotton garment shipment was flagged by CBP under the UFLPA. The importer had supplier documentation, but CBP needed scientific proof. Isotech tested samples from the detained shipment, delivered a formal origin report, and the importer submitted findings to CBP. The shipment was released.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-12 col-md-6 col-lg-4">
+                    <div className="card">
+                        <div className="card-body">
+                            <h3 className="card-title">The Blend Isn't a Barrier</h3>
+                            <p>A stretch denim (cotton, polyester, and elastane) raised a sourcing red flag. Standard chemical testing can't isolate the cotton component. Isotech stripped out the synthetic fibers, isolated the cotton's isotopic signature, and delivered a clear origin determination on the cotton itself.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-12 col-md-6 col-lg-4">
+                    <div className="card">
+                        <div className="card-body">
+                            <h3 className="card-title">Testing at Every Step</h3>
+                            <p>A brand wanted to validate its supplier's origin claims before goods reached the U.S. border. Isotech tested samples at four points — raw fiber, yarn, fabric, and finished garment — and confirmed a consistent isotopic signature throughout. End-to-end chain of custody, backed by science.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </Section>
+        
+        <Section className="bg-img paralax transparent-overlay dark-grey-bg text-center" style={{backgroundImage: `url(${statBG.src})`}}>
+            <div className="py-5">
+                <p className="stat">
+                    <span className="stat-top animated-number">1,000,000+</span>
+                    <span className="stat-bottom">samples analyzed for isotopic composition</span>
+                </p>
+                <p>cotton | oil & gas | water | timber</p>
+            </div>
+        </Section>
+
+        <Section className="text-center">
+            <div className="mw-800">
+                <h2>More data. Less cost. Fast results.</h2>
+
+                <p className="fs-5">When origin matters, trust Isotech — the most experienced isotope lab in the U.S. with 40 years of science, over one million samples analyzed, and results CBP accepts.</p>
+
+                <p className="mt-4"><Link className="button" href="/about/contact">Get your cotton tested today</Link></p>
+            </div>
+        </Section>
+        </>
     );
 }
