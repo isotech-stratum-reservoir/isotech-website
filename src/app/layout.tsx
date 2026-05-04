@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Montserrat, Open_Sans } from "next/font/google";
 import "@/css/globals.scss";
 import BootstrapClient from '@/components/BootstrapClient';
-import Header from '@/components/Header';
+import { AOSProvider } from '@/components/AOSProvider';import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 const montserrat = Montserrat({ subsets: ["latin"], variable: '--font-montserrat' });
@@ -19,14 +19,16 @@ export default function RootLayout({ children }) {
       <body className={`${montserrat.variable} ${openSans.variable}`}>
         <Header />
 
-        <main>
-            {children}
-        </main>
+        <AOSProvider>
+          <main>
+              {children}
+          </main>
+        </AOSProvider>
 
         <BootstrapClient />
 
         <Footer />
-    </body>
-    </html>
+      </body>
+  </html>
   );
 }

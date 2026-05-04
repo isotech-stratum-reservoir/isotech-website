@@ -1,0 +1,74 @@
+.hero {
+    position: relative;
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 66%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        opacity: 0.1;
+        background: url("/images/authentication/fingerprint-rotated.svg") no-repeat left;
+        background-size: 100%;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+.fingerprint-bg {
+    position: relative;
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 48%;
+        height: 100%;
+        bottom: 0;
+        left: 0;
+        opacity: 0.08;
+        background: url("/images/authentication/fingerprint.svg") no-repeat right bottom;
+        background-size: 130%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hero {
+        h2 {
+            font-size: 2.5rem;
+        }
+    }
+
+    .fingerprint-bg {
+        &::before {
+            width: 90%;
+            background-size: 150%;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero {
+        &::before {
+            width: 90%;
+        }
+
+        h2 {
+            width: 50%;
+            font-size: 2.5rem;
+            padding-top: 50px;
+        }
+
+        img {
+            width: auto;
+            height: 300px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}

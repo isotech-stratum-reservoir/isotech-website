@@ -31,7 +31,7 @@ body {
 }
 
 body {
-    font-size: 16px;
+    font-size: 18px;
     font-family: var(--font-open-sans);
     text-wrap: pretty;
 }
@@ -287,12 +287,52 @@ footer {
     background-color: var(--lighter-grey);
 }
 
-.gradient-bg {
+.gradient-bg-180 {
     background: linear-gradient(180deg, var(--sr-steel) 0%, var(--sr-green) 100%);
     color: #FFFFFF;
     
     h2, h3 {
         color: #FFFFFF;
+    }
+}
+
+.gradient-bg-90 {
+    background: linear-gradient(90deg, var(--sr-steel) 0%, var(--sr-green) 100%);
+    color: #FFFFFF;
+    
+    h2, h3 {
+        color: #FFFFFF;
+    }
+}
+
+.animated-gradient-bg {
+    background: linear-gradient(-45deg, #109e9a, var(--sr-steel), #05af66, var(--sr-green));
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimatedGradient 10s linear infinite;
+    -moz-animation: AnimatedGradient 10s linear infinite;
+    animation: AnimatedGradient 10s linear infinite;
+}
+
+@-webkit-keyframes AnimatedGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimatedGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimatedGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animated-gradient-bg {
+        background: linear-gradient(90deg, var(--sr-steel) 0%, var(--sr-green) 100%);
     }
 }
 
@@ -346,12 +386,20 @@ footer {
 }
 
 /* Font weights */
+.regular-text {
+    font-weight: 400;
+}
+
+.semi-bold-text {
+    font-weight: 600;
+}
+
 .bold-text {
     font-weight: 700;
 }
 
-.regular-text {
-    font-weight: 400;
+.extra-bold-text {
+    font-weight: 800;
 }
 
 /* Link buttons */
@@ -407,6 +455,10 @@ a.button {
 .mw-800 {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.mh-450 {
+    min-height: 450px;
 }
 
 /* Padding */
@@ -495,8 +547,55 @@ ul.questions {
     }
 }
 
-.animated-number {
-    animation: countUp 2s ease-out;
+.animated-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 0;
+    position: relative;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 2px;
+        height: 100%;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 5px;
+        left: 9px;
+        transition: height 0.1s linear;
+    }
+
+    li {
+        position: relative;
+        padding-left: 40px;
+        margin: 0;
+
+        &::before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-color: var(--sr-orange);
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+            left: 0;
+        }
+    }
+}
+
+.border-bottom-orange {
+    border-bottom: 5px solid var(--sr-orange);
+}
+
+.border-bottom-steel {
+    border-bottom: 5px solid var(--sr-steel);
+}
+
+.border-bottom-green {
+    border-bottom: 5px solid var(--sr-green);
 }
 
 /* Bootstrap overrides */
@@ -695,6 +794,10 @@ ul.questions {
     border-radius: 0;
 }
 
+.sticky-md-top {
+    top: 30px;
+}
+
 /* Responsive styles */
 @media screen and (min-width: 992px) {
     header {
@@ -798,5 +901,17 @@ ul.questions {
             top: 0;
         }
 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .row.swap-cols-mobile {
+        & > div.col-12:first-of-type {
+            order: 2;
+        }
+
+        & > div.col-12:last-of-type {
+            order: 1;
+        }
     }
 }
