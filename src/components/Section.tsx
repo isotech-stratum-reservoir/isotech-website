@@ -35,7 +35,7 @@ export default function Section({
       }
       
     return (
-        <div className={`py-4 ${className} ${bgColorClass}`} style={style}>
+        <div className={`py-3 ${className} ${bgColorClass}`} style={style}>
             <div className="container py-4">
                 {children}
             </div>

@@ -587,15 +587,43 @@ ul.questions {
 }
 
 .border-bottom-orange {
-    border-bottom: 5px solid var(--sr-orange);
+    border-bottom: 8px solid var(--sr-orange);
 }
 
 .border-bottom-steel {
-    border-bottom: 5px solid var(--sr-steel);
+    border-bottom: 8px solid var(--sr-steel);
 }
 
 .border-bottom-green {
-    border-bottom: 5px solid var(--sr-green);
+    border-bottom: 8px solid var(--sr-green);
+}
+
+.yes-check,
+.no-x {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        flex: 0 0 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 8px;
+    }
+}
+
+.yes-check::before {
+    background-image: url("/images/icons/check-icon-green.svg")
+}
+
+.no-x::before {
+    background-image: url("/images/icons/x-icon-orange.svg")
 }
 
 /* Bootstrap overrides */
