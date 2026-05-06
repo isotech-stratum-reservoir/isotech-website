@@ -8,7 +8,6 @@ import cottonCutout from "@/public/images/authentication/cotton-cutout.png";
 import cottonLogo from "@/public/images/authentication/cotton-logo.png";
 import lab from "@/public/images/authentication/lab.jpg";
 import sampleIcons from "@/public/images/authentication/sample-icons.svg";
-import shipIcon from "@/public/images/authentication/results-shipment-icon.svg";
 import statBG from "@/public/images/authentication/authentication-stat-bg.jpg";
 
 export const metadata = {
@@ -44,18 +43,6 @@ export default function Authentication() {
 
                 <p>Isotech is the largest commercial U.S. isotopic laboratory providing cotton and textile fiber origin authentication meeting enforcement requirements for the Uyghur Forced Labor Prevention Act (UFLPA).</p>
             </div>
-            {/* <div className="row pt-3">
-                <div className="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center">
-                    <Image src={cottonLogo} alt="" width={90} height={117} className="mb-4"/>
-                </div>
-
-                <div className="col-12 col-md-6 col-lg-8">
-                    <h2>A U.S.-Based Solution for Cotton Origin Enforcement</h2>
-
-                    <p>Isotech is the largest commercial U.S. isotopic laboratory providing cotton and textile fiber origin authentication meeting enforcement requirements for the Uyghur Forced Labor Prevention Act (UFLPA).</p>
-                </div>
-
-            </div> */}
         </Section>
 
         <Section>
@@ -77,15 +64,6 @@ export default function Authentication() {
         </Section>
 
         <Section>
-            {/* <div className="row swap-cols-mobile">
-                <div className="col-12 col-md-6 col-lg-8" data-aos="fade-right">
-                    <h2>Results that Move Shipments</h2>
-
-                    <p>Isotech's reports have been used by importers to support the release of numerous cotton products detained under the UFLPA, with results accepted by Customs and Border Protection in real-world enforcement matters.</p>
-                </div>
-
-            </div> */}
-
             <div className="mw-800 text-center" data-aos="fade-up">
                 <h2>Results that Move Shipments</h2>
 
