@@ -11,7 +11,7 @@ import sampleIcons from "@/public/images/authentication/sample-icons.svg";
 import statBG from "@/public/images/authentication/authentication-stat-bg.jpg";
 
 export const metadata = {
-    title: "Authentication | Services | Isotech",
+    title: "A U.S.-Based Solution for Cotton Origin Enforcement | Authentication Services | Isotech",
     description: "Isotech is the largest commercial U.S. isotopic laboratory providing cotton and textile fiber origin authentication meeting enforcement requirements for the Uyghur Forced Labor Prevention Act (UFLPA).",
 };
 
