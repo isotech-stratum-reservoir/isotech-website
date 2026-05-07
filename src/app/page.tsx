@@ -9,6 +9,30 @@ export default function Home() {
         <>
             <h1 className="visually-hidden">Home</h1>
 
+            <Section className="bg-img" style={{backgroundImage: `url(${cotton.src})`}}>
+                <div className="py-md-4 d-flex justify-content-end">
+                    <div className="orange-bg w-lg-50 p-2rem">
+                        <h2>Cotton Origin Verification</h2>
+
+                        <p>Do you know where your cotton is from? Do you have control and visibility into your supply chain? Is there a risk that your supply chain could be using yarn or fabric in finished products from prohibited regions that use forced labor?</p>
+
+                        <p>Our team has built an extensive library of isotopic compositions of cotton samples from the major cotton producing regions of the world. You can send in raw cotton fiber, unprocessed or processed greige yarn, dyed fabric, or finished products to our facility to confirm your cotton origin.</p>
+
+                        <p className="mt-4 mb-0"><Link className="button orange-bg" href="/services/authentication">Verify the Origin of Your Cotton</Link></p>
+                    </div>
+                </div>
+            </Section>
+
+            <Section className="text-center">
+                <div className="mw-800">
+                    <h2>A Global Leader in High Precision Isotope Testing</h2>
+
+                    <p>Isotech specializes in high-precision carbon, hydrogen, oxygen, nitrogen, and sulfur isotope analysis and interpreting data for isotopic fingerprinting. We have built our reputation by providing superior services delivered by expert staff.</p>
+
+                    <p className="mt-4"><Link className="button" href="/about">More About Isotech</Link></p>
+                </div>
+            </Section>
+
             <div className={styles.hero}>
                 <div className={`slanted-right ${styles.services}`}>
                     <h2 className="text-center">
@@ -31,29 +55,6 @@ export default function Home() {
                 </div>
             </div>
 
-            <Section className="text-center">
-                <div className="mw-800">
-                    <h2>A Global Leader in High Precision Isotope Testing</h2>
-
-                    <p>Isotech specializes in high-precision carbon, hydrogen, oxygen, nitrogen, and sulfur isotope analysis and interpreting data for isotopic fingerprinting. We have built our reputation by providing superior services delivered by expert staff.</p>
-
-                    <p className="mt-4"><Link className="button" href="/about">More About Isotech</Link></p>
-                </div>
-            </Section>
-
-            <Section className="bg-img" style={{backgroundImage: `url(${cotton.src})`}}>
-                <div className="py-md-4 d-flex justify-content-end">
-                    <div className="orange-bg w-lg-50 p-2rem">
-                        <h2>Cotton Origin Verification</h2>
-
-                        <p>Do you know where your cotton is from? Do you have control and visibility into your supply chain? Is there a risk that your supply chain could be using yarn or fabric in finished products from prohibited regions that use forced labor?</p>
-
-                        <p>Our team has built an extensive library of isotopic compositions of cotton samples from the major cotton producing regions of the world. You can send in raw cotton fiber, unprocessed or processed greige yarn, dyed fabric, or finished products to our facility to confirm your cotton origin.</p>
-
-                        <p className="mt-4 mb-0"><Link className="button orange-bg" href="/services/authentication">Verify the Origin of Your Cotton</Link></p>
-                    </div>
-                </div>
-            </Section>
 
             <Section 
                 className="bg-img text-center py-4"

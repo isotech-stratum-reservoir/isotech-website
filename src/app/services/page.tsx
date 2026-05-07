@@ -44,7 +44,7 @@ export default function Services() {
                     <div className="card p-5 services-card cotton-card">
                         <div className="card-body">
                             <h3 className="card-title text-center">
-                                <Link href="/services/authentication" className="stretched-link">Authentication</Link>
+                                <Link href="/services/authentication" className="stretched-link">Cotton</Link>
                             </h3>
                         </div>
                     </div>
