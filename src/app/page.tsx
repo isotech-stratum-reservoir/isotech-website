@@ -21,7 +21,7 @@ export default function Home() {
                     <div className="w-lg-50 py-5">
                         <h2 className="fs-1 white-text">Do you know where your cotton really comes from?</h2>
 
-                        <p className="white-text">Isotech verifies cotton origin at every stage of the supply chain with results accepted by CBP.</p>
+                        <p className="white-text fs-5">Isotech verifies cotton origin at every stage of the supply chain.</p>
 
                         <p className="mt-4"><Link className="button" href="/services/authentication">Verify the origin of your cotton</Link></p>
                     </div>
