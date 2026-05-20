@@ -22,6 +22,8 @@ export default function Contact() {
 
                     <p>Phone: 217-398-3490</p>
 
+                    <p>Cotton Traceability: <Link href="mailto:cotton@stratumreservoir.com">cotton@stratumreservoir.com</Link></p>
+
                     <p>
                         Online ordering: <Link href="mailto:onlineorders@stratumreservoir.com">onlineorders@stratumreservoir.com</Link>
                     </p>
